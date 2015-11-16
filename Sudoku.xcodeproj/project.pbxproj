@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F61604D17DDFC3200E27F98 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F61604C17DDFC3100E27F98 /* MediaPlayer.framework */; };
+		6F6160CF17DF93E500E27F98 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6160CE17DF93E500E27F98 /* CoreData.framework */; };
+		6F6160D217DF94DF00E27F98 /* HighScores.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F6160D017DF94DF00E27F98 /* HighScores.xcdatamodeld */; };
+		6F61611817DFCF4C00E27F98 /* HighScoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F61611617DFCF4C00E27F98 /* HighScoresController.m */; };
+		6F61611917DFCF4C00E27F98 /* HighScoresController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F61611717DFCF4C00E27F98 /* HighScoresController.xib */; };
+		6F910C8A17F9C86300185E71 /* iconLo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F910C8817F9C86300185E71 /* iconLo.png */; };
+		6F910C8B17F9C86300185E71 /* iconHi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F910C8917F9C86300185E71 /* iconHi.png */; };
+		6F910C9117F9E6B500185E71 /* chinesepainting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F910C9017F9E6B500185E71 /* chinesepainting.jpg */; };
+		6F910C9317F9E77500185E71 /* chinesepainting1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F910C9217F9E77500185E71 /* chinesepainting1.jpg */; };
+		6F93862017AFA7D10046256A /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93861F17AFA7D10046256A /* Cell.m */; };
+		6F93C36D17943F6C0005196F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93C36C17943F6C0005196F /* UIKit.framework */; };
+		6F93C36F17943F6C0005196F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93C36E17943F6C0005196F /* Foundation.framework */; };
+		6F93C37117943F6C0005196F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F93C37017943F6C0005196F /* CoreGraphics.framework */; };
+		6F93C37717943F6C0005196F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C37517943F6C0005196F /* InfoPlist.strings */; };
+		6F93C37917943F6C0005196F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93C37817943F6C0005196F /* main.m */; };
+		6F93C37D17943F6C0005196F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93C37C17943F6C0005196F /* AppDelegate.m */; };
+		6F93C37F17943F6C0005196F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C37E17943F6C0005196F /* Default.png */; };
+		6F93C38117943F6C0005196F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C38017943F6C0005196F /* Default@2x.png */; };
+		6F93C38317943F6C0005196F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C38217943F6C0005196F /* Default-568h@2x.png */; };
+		6F93C38617943F6C0005196F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93C38517943F6C0005196F /* ViewController.m */; };
+		6F93C38917943F6C0005196F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C38717943F6C0005196F /* ViewController_iPhone.xib */; };
+		6F93C38C17943F6C0005196F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C38A17943F6C0005196F /* ViewController_iPad.xib */; };
+		6F93C39B1794940A0005196F /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C39A1794940A0005196F /* sample.png */; };
+		6F93C39F1794946F0005196F /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93C39D1794946F0005196F /* GameController.m */; };
+		6F93C3A01794946F0005196F /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F93C39E1794946F0005196F /* GameController.xib */; };
+		6F9430ED17C23BA3007F003E /* SudokuCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9430EC17C23BA3007F003E /* SudokuCreator.m */; };
+		6F9430F017C23BFA007F003E /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9430EF17C23BFA007F003E /* CellData.m */; };
+		6F9430F217C26163007F003E /* sadface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F9430F117C26163007F003E /* sadface.jpg */; };
+		6F9430F417C283DF007F003E /* ThumbsUp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F9430F317C283DF007F003E /* ThumbsUp.jpeg */; };
+		6FA00C81179DAA08001DCF73 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA00C80179DAA08001DCF73 /* GameModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F61604C17DDFC3100E27F98 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6F6160CE17DF93E500E27F98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F6160D117DF94DF00E27F98 /* HighScores.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HighScores.xcdatamodel; sourceTree = "<group>"; };
+		6F61611417DFA60A00E27F98 /* HighScores 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "HighScores 2.xcdatamodel"; sourceTree = "<group>"; };
+		6F61611517DFCF4C00E27F98 /* HighScoresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresController.h; sourceTree = "<group>"; };
+		6F61611617DFCF4C00E27F98 /* HighScoresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresController.m; sourceTree = "<group>"; };
+		6F61611717DFCF4C00E27F98 /* HighScoresController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresController.xib; sourceTree = "<group>"; };
+		6F910C8817F9C86300185E71 /* iconLo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLo.png; sourceTree = "<group>"; };
+		6F910C8917F9C86300185E71 /* iconHi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHi.png; sourceTree = "<group>"; };
+		6F910C9017F9E6B500185E71 /* chinesepainting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinesepainting.jpg; sourceTree = "<group>"; };
+		6F910C9217F9E77500185E71 /* chinesepainting1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinesepainting1.jpg; sourceTree = "<group>"; };
+		6F93861E17AFA7D10046256A /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		6F93861F17AFA7D10046256A /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		6F93C36917943F6C0005196F /* Sudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F93C36C17943F6C0005196F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F93C36E17943F6C0005196F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F93C37017943F6C0005196F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F93C37417943F6C0005196F /* Sudoku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sudoku-Info.plist"; sourceTree = "<group>"; };
+		6F93C37617943F6C0005196F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F93C37817943F6C0005196F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F93C37A17943F6C0005196F /* Sudoku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sudoku-Prefix.pch"; sourceTree = "<group>"; };
+		6F93C37B17943F6C0005196F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F93C37C17943F6C0005196F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F93C37E17943F6C0005196F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6F93C38017943F6C0005196F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6F93C38217943F6C0005196F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6F93C38417943F6C0005196F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F93C38517943F6C0005196F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F93C38817943F6C0005196F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6F93C38B17943F6C0005196F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6F93C39A1794940A0005196F /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		6F93C39C1794946F0005196F /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		6F93C39D1794946F0005196F /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		6F93C39E1794946F0005196F /* GameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameController.xib; sourceTree = "<group>"; };
+		6F9430EB17C23BA3007F003E /* SudokuCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudokuCreator.h; sourceTree = "<group>"; };
+		6F9430EC17C23BA3007F003E /* SudokuCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudokuCreator.m; sourceTree = "<group>"; };
+		6F9430EE17C23BFA007F003E /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		6F9430EF17C23BFA007F003E /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
+		6F9430F117C26163007F003E /* sadface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadface.jpg; sourceTree = "<group>"; };
+		6F9430F317C283DF007F003E /* ThumbsUp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThumbsUp.jpeg; sourceTree = "<group>"; };
+		6FA00C7F179DAA08001DCF73 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		6FA00C80179DAA08001DCF73 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F93C36617943F6C0005196F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6160CF17DF93E500E27F98 /* CoreData.framework in Frameworks */,
+				6F61604D17DDFC3200E27F98 /* MediaPlayer.framework in Frameworks */,
+				6F93C36D17943F6C0005196F /* UIKit.framework in Frameworks */,
+				6F93C36F17943F6C0005196F /* Foundation.framework in Frameworks */,
+				6F93C37117943F6C0005196F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6160D317DF94F000E27F98 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				6F6160D017DF94DF00E27F98 /* HighScores.xcdatamodeld */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		6F93C36017943F6C0005196F = {
+			isa = PBXGroup;
+			children = (
+				6F93C37217943F6C0005196F /* Soduku */,
+				6F93C36B17943F6C0005196F /* Frameworks */,
+				6F93C36A17943F6C0005196F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F93C36A17943F6C0005196F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F93C36917943F6C0005196F /* Sudoku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F93C36B17943F6C0005196F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6160CE17DF93E500E27F98 /* CoreData.framework */,
+				6F61604C17DDFC3100E27F98 /* MediaPlayer.framework */,
+				6F93C36C17943F6C0005196F /* UIKit.framework */,
+				6F93C36E17943F6C0005196F /* Foundation.framework */,
+				6F93C37017943F6C0005196F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F93C37217943F6C0005196F /* Soduku */ = {
+			isa = PBXGroup;
+			children = (
+				6F6160D317DF94F000E27F98 /* database */,
+				6F93C399179493EA0005196F /* res */,
+				6F93C39A1794940A0005196F /* sample.png */,
+				6F9430F317C283DF007F003E /* ThumbsUp.jpeg */,
+				6F9430F117C26163007F003E /* sadface.jpg */,
+				6F910C9017F9E6B500185E71 /* chinesepainting.jpg */,
+				6F910C9217F9E77500185E71 /* chinesepainting1.jpg */,
+				6F910C8817F9C86300185E71 /* iconLo.png */,
+				6F910C8917F9C86300185E71 /* iconHi.png */,
+				6F93C39317943F830005196F /* iPad */,
+				6F93C39217943F7A0005196F /* iPhone */,
+				6F93C37B17943F6C0005196F /* AppDelegate.h */,
+				6F93C37C17943F6C0005196F /* AppDelegate.m */,
+				6F93C38417943F6C0005196F /* ViewController.h */,
+				6F93C38517943F6C0005196F /* ViewController.m */,
+				6F61611517DFCF4C00E27F98 /* HighScoresController.h */,
+				6F61611617DFCF4C00E27F98 /* HighScoresController.m */,
+				6F61611717DFCF4C00E27F98 /* HighScoresController.xib */,
+				6F93C39C1794946F0005196F /* GameController.h */,
+				6F93C39D1794946F0005196F /* GameController.m */,
+				6F93C39E1794946F0005196F /* GameController.xib */,
+				6FA00C7F179DAA08001DCF73 /* GameModel.h */,
+				6FA00C80179DAA08001DCF73 /* GameModel.m */,
+				6F93861E17AFA7D10046256A /* Cell.h */,
+				6F93861F17AFA7D10046256A /* Cell.m */,
+				6F9430EE17C23BFA007F003E /* CellData.h */,
+				6F9430EF17C23BFA007F003E /* CellData.m */,
+				6F9430EB17C23BA3007F003E /* SudokuCreator.h */,
+				6F9430EC17C23BA3007F003E /* SudokuCreator.m */,
+				6F93C37317943F6C0005196F /* Supporting Files */,
+			);
+			path = Soduku;
+			sourceTree = "<group>";
+		};
+		6F93C37317943F6C0005196F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F93C37417943F6C0005196F /* Sudoku-Info.plist */,
+				6F93C37517943F6C0005196F /* InfoPlist.strings */,
+				6F93C37817943F6C0005196F /* main.m */,
+				6F93C37A17943F6C0005196F /* Sudoku-Prefix.pch */,
+				6F93C37E17943F6C0005196F /* Default.png */,
+				6F93C38017943F6C0005196F /* Default@2x.png */,
+				6F93C38217943F6C0005196F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F93C39217943F7A0005196F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				6F93C38717943F6C0005196F /* ViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		6F93C39317943F830005196F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				6F93C38A17943F6C0005196F /* ViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		6F93C399179493EA0005196F /* res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F93C36817943F6C0005196F /* Sudoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F93C38F17943F6C0005196F /* Build configuration list for PBXNativeTarget "Sudoku" */;
+			buildPhases = (
+				6F93C36517943F6C0005196F /* Sources */,
+				6F93C36617943F6C0005196F /* Frameworks */,
+				6F93C36717943F6C0005196F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sudoku;
+			productName = Soduku;
+			productReference = 6F93C36917943F6C0005196F /* Sudoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F93C36117943F6C0005196F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Xinyu;
+			};
+			buildConfigurationList = 6F93C36417943F6C0005196F /* Build configuration list for PBXProject "Sudoku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F93C36017943F6C0005196F;
+			productRefGroup = 6F93C36A17943F6C0005196F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F93C36817943F6C0005196F /* Sudoku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F93C36717943F6C0005196F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F93C37717943F6C0005196F /* InfoPlist.strings in Resources */,
+				6F93C37F17943F6C0005196F /* Default.png in Resources */,
+				6F93C38117943F6C0005196F /* Default@2x.png in Resources */,
+				6F93C38317943F6C0005196F /* Default-568h@2x.png in Resources */,
+				6F93C38917943F6C0005196F /* ViewController_iPhone.xib in Resources */,
+				6F93C38C17943F6C0005196F /* ViewController_iPad.xib in Resources */,
+				6F93C39B1794940A0005196F /* sample.png in Resources */,
+				6F93C3A01794946F0005196F /* GameController.xib in Resources */,
+				6F9430F217C26163007F003E /* sadface.jpg in Resources */,
+				6F9430F417C283DF007F003E /* ThumbsUp.jpeg in Resources */,
+				6F61611917DFCF4C00E27F98 /* HighScoresController.xib in Resources */,
+				6F910C8A17F9C86300185E71 /* iconLo.png in Resources */,
+				6F910C8B17F9C86300185E71 /* iconHi.png in Resources */,
+				6F910C9117F9E6B500185E71 /* chinesepainting.jpg in Resources */,
+				6F910C9317F9E77500185E71 /* chinesepainting1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F93C36517943F6C0005196F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F93C37917943F6C0005196F /* main.m in Sources */,
+				6F93C37D17943F6C0005196F /* AppDelegate.m in Sources */,
+				6F93C38617943F6C0005196F /* ViewController.m in Sources */,
+				6F93C39F1794946F0005196F /* GameController.m in Sources */,
+				6FA00C81179DAA08001DCF73 /* GameModel.m in Sources */,
+				6F93862017AFA7D10046256A /* Cell.m in Sources */,
+				6F9430ED17C23BA3007F003E /* SudokuCreator.m in Sources */,
+				6F9430F017C23BFA007F003E /* CellData.m in Sources */,
+				6F6160D217DF94DF00E27F98 /* HighScores.xcdatamodeld in Sources */,
+				6F61611817DFCF4C00E27F98 /* HighScoresController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F93C37517943F6C0005196F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F93C37617943F6C0005196F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F93C38717943F6C0005196F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F93C38817943F6C0005196F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6F93C38A17943F6C0005196F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F93C38B17943F6C0005196F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F93C38D17943F6C0005196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F93C38E17943F6C0005196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F93C39017943F6C0005196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bolton Software Ltd (SP58PFWX5L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soduku/Sudoku-Prefix.pch";
+				INFOPLIST_FILE = "Soduku/Sudoku-Info.plist";
+				PRODUCT_NAME = Sudoku;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F93C39117943F6C0005196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bolton Software Ltd (SP58PFWX5L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soduku/Sudoku-Prefix.pch";
+				INFOPLIST_FILE = "Soduku/Sudoku-Info.plist";
+				PRODUCT_NAME = Sudoku;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F93C36417943F6C0005196F /* Build configuration list for PBXProject "Sudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F93C38D17943F6C0005196F /* Debug */,
+				6F93C38E17943F6C0005196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F93C38F17943F6C0005196F /* Build configuration list for PBXNativeTarget "Sudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F93C39017943F6C0005196F /* Debug */,
+				6F93C39117943F6C0005196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F6160D017DF94DF00E27F98 /* HighScores.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F61611417DFA60A00E27F98 /* HighScores 2.xcdatamodel */,
+				6F6160D117DF94DF00E27F98 /* HighScores.xcdatamodel */,
+			);
+			currentVersion = 6F6160D117DF94DF00E27F98 /* HighScores.xcdatamodel */;
+			path = HighScores.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F93C36117943F6C0005196F /* Project object */;
+}
