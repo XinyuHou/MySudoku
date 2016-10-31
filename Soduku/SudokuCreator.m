@@ -101,7 +101,7 @@
     // if validList is not empty,randomly choose one, then remove it
     if([cells[x][y].validList count] != 0)
     {
-        int size = [cells[x][y].validList count];
+        NSInteger size = [cells[x][y].validList count];
         srand((unsigned)time(NULL));
         int n = rand()%size;
         
@@ -154,7 +154,7 @@
         for (int j = 0; j < 9;++j)
         {
             [self initValidListForCellX:i Y:j];
-            if (-1 == [self FillCellX:i Y:j])
+            if (FALSE == [self FillCellX:i Y:j])
             {
                 return;
             }

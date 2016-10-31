@@ -57,7 +57,7 @@
 
 -(NSString*)formatScoreStringFromInteger:(NSInteger) number
 {
-	NSMutableString *result = [NSMutableString stringWithFormat:@"%06d", number];
+	NSMutableString *result = [NSMutableString stringWithFormat:@"%06ld", (long)number];
 	[result insertString:@":" atIndex:2];
 	[result insertString:@":" atIndex:5];
 	return result;
@@ -171,11 +171,11 @@
 		NSManagedObject *object = [NSEntityDescription
 								 insertNewObjectForEntityForName:entityName
 								 inManagedObjectContext:context];
-		NSNumber* num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset] integerValue]];
+		NSNumber* num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset] intValue]];
 		[object setValue:num forKey:@"first"];
-		num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset + 1] integerValue]];
+		num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset + 1] intValue]];
 		[object setValue:num forKey:@"second"];
-		num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset + 2] integerValue]];
+		num = [NSNumber numberWithInt:[[HighScoresCollection objectAtIndex:offset + 2] intValue]];
 		[object setValue:num forKey:@"third"];
 		
 		if (![context save:&error]) {

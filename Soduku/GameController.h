@@ -34,10 +34,10 @@
     // 9 * 9 cell buttons
     Cell * cells[9][9];
     
-    int selectedX;
-    int selectedY;
-    int lastSelectedX;
-    int lastSelectedY;
+    NSInteger selectedX;
+    NSInteger selectedY;
+    NSInteger lastSelectedX;
+    NSInteger lastSelectedY;
 	
 	int cellSize;
 	

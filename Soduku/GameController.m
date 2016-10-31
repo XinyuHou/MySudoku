@@ -367,7 +367,7 @@
 			if (![sc isCellBlankX:i Y:j])
 			{
 				cells[i][j].inputValue = cells[i][j].checkValue;
-				[cells[i][j] setTitle:[NSString stringWithFormat:@"%d", cells[i][j].inputValue] forState: UIControlStateNormal];
+				[cells[i][j] setTitle:[NSString stringWithFormat:@"%ld", (long)cells[i][j].inputValue] forState: UIControlStateNormal];
 				[cells[i][j]setBackgroundColor:[UIColor colorWithRed:(float)(111.0/255.0) green:(float)(111.0/255.0) blue:(float)(111.0/255.0) alpha:0.7]];
 			}
 			
