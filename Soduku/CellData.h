@@ -10,7 +10,6 @@
 
 @interface CellData : NSObject
 {
-	
 	int x;
 	int y;
 	int value;
