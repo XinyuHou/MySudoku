@@ -230,6 +230,12 @@
     lastSelectedY = selectedY;
     selectedX = selectedCell.x;
     selectedY = selectedCell.y;
+	if (lastSelectedX == selectedX && lastSelectedY == selectedY) {
+		[self.view endEditing:YES];
+		[cells[lastSelectedX][lastSelectedY] setBackgroundColor:[UIColor colorWithRed:(float)(170.0/255.0) green:(float)(170.0/255.0) blue:(float)(170.0/255.0) alpha:0.7]];
+		return;
+	}
+	
     if (lastSelectedX != -1 & lastSelectedY != -1) {
         [cells[lastSelectedX][lastSelectedY] setBackgroundColor:[UIColor colorWithRed:(float)(170.0/255.0) green:(float)(170.0/255.0) blue:(float)(170.0/255.0) alpha:0.7]];
     }
